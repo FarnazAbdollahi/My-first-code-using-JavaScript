@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My Project </title>
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <div class="textbox">
+            <h1><b> Financial Management </b></h1><br><br>
+            <p id="questions"><b>Tell us How much you want to save</b></p>
+            <input class="form-control" type="text" name="ideal-saving" id="saving" placeholder="How much u wanna save?"><br>
+            <button onclick="Saving();" type="button" class="btn btn-default"> Send </button>
+            <p id="show-ideal-saving"></p>
+            <hr>
+            <p id="questions"><b> Please Enter Your Income Money : </b></p>
+            <input class="form-control" type="text" name="income" id="income" placeholder="Enter your income..."><br>
+            <button onclick="inCome();" type="button" class="btn btn-default"> Save </button>
+            <p id="show-income-value"></p>
+            <hr/>
+            <p id="questions"><b> Please Enter Your Outgo Money : </b></p>
+            <input class="form-control" type="text" name="outgo" id="outgo" placeholder="Enter your outgo..."><br>
+            <button onclick="outGo();" type="button" class="btn btn-default"> Save </button>
+            <p id="show-outgo-value"></p>
+            <hr/>
+            <p id="questions"><b> Do you want to see your financial result? </b></p> 
+            <button onclick="Compare();" type="button" class="btn btn-default"> Compare your income money and your outgo money </button><br>
+            <p id="compare-the-values"></p>
+            <hr/>
+            <p id="questions"><b> See if you are able to save as much money as you want? </b></p> 
+            <button onclick="saveMoney();" type="button" class="btn btn-default"> Yes </button>
+        <script src="./js/main.js"></script>       
+     </body>   
+</html>     
+
+
+
+
+

@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-image: url('file:///C:/Users/Farnaz/Desktop/Project/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.textbox {
+    margin: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+}
+h1 {
+    color: #7B241C;
+    font-family:'Bernard MT Condensed';
+    letter-spacing: 2px;
+    font-size: 45px;
+}
+p#questions {
+    color:#A04000;
+    font-family:'Sylfaen Regular';
+    font-size: 25px;
+}
+p {
+    color: #B22222;
+    font-family:'Sylfaen Regular';
+    font-size: 30px;
+}
+input {
+    text-align: center;
+}
